@@ -1,0 +1,17 @@
+
+public class Transaction  
+{
+	private int accountNumber;
+	private String accountHolderName;
+	private String accountHolderAddress;
+	private double balance;
+	private String[] transactionSummary;
+	private static int numOfTransactions;
+	
+	public String getTransactionInfo()
+	{
+		String transaction=transactionSummary[];
+		return transactionSummary[numOfTransactions];
+	}
+	
+}

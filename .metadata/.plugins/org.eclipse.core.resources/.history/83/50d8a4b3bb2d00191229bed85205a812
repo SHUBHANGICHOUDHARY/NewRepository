@@ -1,0 +1,12 @@
+
+public class BankMain 
+{
+	public static void main(String args[])
+	{
+		BankAccount b=new BankAccount("Shubh",10000.0,"igate","10/12/2018");
+
+		b.deposit(10000);
+		b.withdraw(5000);
+		b.getTransactionInfo(3);
+	}
+}

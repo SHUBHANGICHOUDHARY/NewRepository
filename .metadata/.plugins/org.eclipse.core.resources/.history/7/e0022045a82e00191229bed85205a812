@@ -1,0 +1,25 @@
+package com.Capgemini.Date;
+
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main (String args[])
+	{
+		MyDate d=new MyDate();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter start date : ");
+		int date=sc.nextInt();
+		int month=sc.nextInt();
+		int year=sc.nextInt();
+		d.setStartDate(date, month, year);
+		d.printStartDate();
+		
+		System.out.println("Enter end date : ");
+		 date=sc.nextInt();
+		 month=sc.nextInt();
+		 year=sc.nextInt();
+		d.setEndDate(date, month, year);
+		d.printEndDate();
+	}
+}

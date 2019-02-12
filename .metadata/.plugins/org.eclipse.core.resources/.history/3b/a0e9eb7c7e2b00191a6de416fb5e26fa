@@ -1,0 +1,31 @@
+
+public class Friend
+{
+	
+	public Friend() {
+	
+	}
+	String friendName;
+	String friendMobileNo;
+	
+	Friend(String name, String phoneNumber) 
+	{
+        friendName = name;
+        System.out.println(friendName);
+        friendMobileNo = phoneNumber;
+        System.out.println(friendMobileNo);
+	}
+	public String getFriendName() 
+	{
+		return friendName;
+	}
+	public void setFriendName(String friendName) {
+		this.friendName = friendName;
+	}
+	public String getFriendMobileNo() {
+		return friendMobileNo;
+	}
+	public void setFriendMobileNo(String friendMobileNo) {
+		this.friendMobileNo = friendMobileNo;
+	}
+}

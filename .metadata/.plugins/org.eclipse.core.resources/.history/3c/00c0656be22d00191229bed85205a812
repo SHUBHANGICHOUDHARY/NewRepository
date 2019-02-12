@@ -1,0 +1,28 @@
+
+public class BankMain 
+{
+	public static void main(String args[])
+	{
+		BankAccount b=new BankAccount("Shubh",10000.0,"igate","10/12/2018");
+
+		b.deposit(10000);
+		b.deposit(20000);
+		b.withdraw(5000);
+		b.deposit(4000);
+		b.deposit(10000);
+		b.withdraw(3000);
+		b.getTransactionInfo(7);
+		b.deposit(20000);
+		b.deposit(10000);
+		b.deposit(15000);
+		b.withdraw(6000);
+		b.deposit(50000);
+		b.deposit(40000);
+		b.withdraw(70000);
+		b.withdraw(4000);
+		b.getTransactionInfo(2);
+		b.deposit(4000);
+		b.getTransactionInfo(3);
+		b.miniStatement();
+	}
+}

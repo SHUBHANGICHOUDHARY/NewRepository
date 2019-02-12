@@ -1,0 +1,16 @@
+package com.Capgemini.Date;
+
+public class Main 
+{
+	public static void main (String args[])
+	{
+		MyDate d=new MyDate();
+	
+		
+		d.setStartDate();
+		d.printStartDate();
+		
+		d.setEndDate();
+		d.printEndDate();
+	}
+}

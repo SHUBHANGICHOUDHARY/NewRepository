@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class FriendMain 
+{
+	public static void main(String args[]) 
+	{
+	
+		
+		Friend paul = new Friend("Paul Jones", "535-4902");
+		Friend polly = new Friend("Polly Jones", "234-2042");
+		Friend  jamie = new Friend("Jamie Jillings", "434-392");
+		Friend larry = new Friend("Larry Smith", "420-4926");
+		Friend jimmy = new Friend("Jimmy Stone", "444-4444");
+		ArrayList<Friend> l = new ArrayList<Friend>();
+		l.add(paul);
+		l.add(polly);
+		l.add(jamie);
+		l.add(larry);
+		l.add(jimmy);
+		for (int index = 0; index < l.size(); index++) {
+			System.out.println(l.get(index));
+		}
+	}
+} 

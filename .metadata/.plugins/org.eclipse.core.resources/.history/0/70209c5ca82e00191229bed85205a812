@@ -1,0 +1,36 @@
+package com.Capgemini.Date;
+
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+public class MyDate
+{
+
+	
+	String pattern = "yyyy-MM-dd";
+	SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+
+	String date = simpleDateFormat.format(new MyDate());
+	
+	Scanner sc=new Scanner(System.in);
+	public void setStartDate()
+	{
+		System.out.println("Enter start date : ");
+		date=sc.next();
+		
+		
+	}
+	public void printStartDate()
+	{
+		System.out.println(date);
+	}
+	public void setEndDate()
+	{
+		System.out.println("Enter end date : ");
+		 date=sc.next();
+	}
+	public void printEndDate()
+	{
+		System.out.println(date);
+	}
+}
