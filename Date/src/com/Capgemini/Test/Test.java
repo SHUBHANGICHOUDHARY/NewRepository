@@ -7,10 +7,9 @@ import com.Capgemini.Date.*;
 
 public class Test 
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	     
-
-        
         ArrayList<MyTestRecord> testData= new ArrayList<MyTestRecord>();
         testData.add(
                         new MyTestRecord(
@@ -88,21 +87,19 @@ public class Test
                                         304));
         
         
-        for(MyTestRecord testCase : testData){
+        for(MyTestRecord testCase : testData)
+        {
                 
                 MyDate startDate=testCase.startDate;
                 MyDate endDate=testCase.endDate;
                 long expectedResult =testCase.expectedResult;
                 long obtainedResult = DateDifference.getDateDifference(startDate, endDate);
                 
-                   if(expectedResult== obtainedResult)
+                if(expectedResult== obtainedResult)
                         System.out.println("Test "+(1+testData.lastIndexOf(testCase))+" Passed " +obtainedResult+"= obtainedResult "+expectedResult+"= expectedResult");
                 else
                         System.out.println("Test "+ (1+testData.lastIndexOf(testCase))+" Failed "+obtainedResult+"= obtainedResult "+expectedResult+"= expectedResult");
                 
         }
-
-}
-
-
+	}
 }
