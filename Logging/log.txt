@@ -1,0 +1,8 @@
+Mar 07, 2019 11:34:40 AM com.shubhangi.test.TestLogging main
+INFO: Information
+Mar 07, 2019 11:34:40 AM com.shubhangi.test.TestLogging main
+WARNING: Warning
+Mar 07, 2019 11:34:40 AM com.shubhangi.test.TestLogging main
+SEVERE: Severe
+Mar 07, 2019 11:35:21 AM com.shubhangi.test.TestLogging main
+SEVERE: Severe
